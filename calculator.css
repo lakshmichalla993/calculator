@@ -1,0 +1,37 @@
+*{
+background-color:rgb(92, 158, 158);
+}
+h1{
+    text-align: center;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: deepskyblue;
+    text-decoration-color: rgb(116, 133, 98);
+}
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #display {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color:yellow;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(54, 165, 42);
+  }
+  
